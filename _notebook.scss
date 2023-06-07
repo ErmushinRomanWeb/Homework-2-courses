@@ -1,0 +1,8 @@
+@media (min-width: 1025px) {
+  .top__button {
+    transition: all 0.3s;
+    &:hover {
+      background: #eb443f;
+    }
+  }
+}

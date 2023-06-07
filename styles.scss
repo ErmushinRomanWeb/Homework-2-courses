@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -59,12 +60,14 @@ body {
   gap: 32px;
   padding-top: 128px;
   &__link {
+    display: block;
+    box-sizing: border-box;
     position: relative;
+    width: 378px;
     height: 300px;
   }
   &__img {
     border-radius: 18px;
-    background: #000915;
   }
   &__text {
     position: absolute;
@@ -79,8 +82,4 @@ body {
   }
 }
 
-.container {
-  height: 200px;
-  width: 200px;
-  background-color: #9c0332;
-}
+@import "notebook.scss"

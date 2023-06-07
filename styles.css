@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -60,12 +61,14 @@ body {
   padding-top: 128px;
 }
 .game-box__link {
+  display: block;
+  box-sizing: border-box;
   position: relative;
+  width: 378px;
   height: 300px;
 }
 .game-box__img {
   border-radius: 18px;
-  background: #000915;
 }
 .game-box__text {
   position: absolute;
@@ -79,8 +82,11 @@ body {
   color: #ffffff;
 }
 
-.container {
-  height: 200px;
-  width: 200px;
-  background-color: #9c0332;
+@media (min-width: 1025px) {
+  .top__button {
+    transition: all 0.3s;
+  }
+  .top__button:hover {
+    background: #eb443f;
+  }
 }/*# sourceMappingURL=styles.css.map */
