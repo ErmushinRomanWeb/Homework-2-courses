@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -41,11 +44,13 @@ body {
     font-weight: 700;
   }
   &__button {
+    display: block;
     width: 234.06px;
     height: 48.6px;
+    padding: 13px 74px 13px 74px;
     background: #9c0332;
     border-radius: 30px;
-    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
