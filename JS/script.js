@@ -5,11 +5,11 @@ a = 20;
 alert(a);
 
 // 2
-let year1Iphone = 2007;
+let yearFirstIphone = 2007;
 alert(`1 iphone was released in ${year1Iphone}`);
 
 // 3
-let creator = 'Brendan Eich';
+let JScreator = 'Brendan Eich';
 alert(`JavaScript was created by ${creator}`);
 
 // 4

@@ -102,6 +102,7 @@ body {
   }
   .game-box__img {
     transition: ease 0.1s;
+    border-radius: 18px;
   }
   .game-box__img:hover {
     border: 3px solid #44d2ff;
