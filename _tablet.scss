@@ -1,0 +1,23 @@
+@media (max-width: 1024px) {
+  .center {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .top {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
+    }
+  }
+  .game-box {
+    display: flex;
+    justify-content: center;
+  }
+}

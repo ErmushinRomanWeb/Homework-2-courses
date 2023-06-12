@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +31,8 @@ body {
     color: #ffffff;
     padding-bottom: 32px;
   }
-  .top__text {
+  &__text {
+    max-width: 481px;
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -40,10 +44,13 @@ body {
     font-weight: 700;
   }
   &__button {
+    display: block;
     width: 234.06px;
     height: 48.6px;
+    padding: 13px 74px 13px 74px;
     background: #9c0332;
     border-radius: 30px;
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -54,9 +61,10 @@ body {
 }
 
 .game-box {
-  height: 556px;
+  padding-bottom: 128px;
   background: #000915;
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
   padding-top: 128px;
   &__link {
@@ -68,6 +76,8 @@ body {
   }
   &__img {
     border-radius: 18px;
+    height: 100%;
+    width: 100%;
   }
   &__text {
     position: absolute;
@@ -82,4 +92,6 @@ body {
   }
 }
 
-@import "notebook.scss"
+@import "notebook.scss";
+@import "tablet.scss";
+@import "mobil.scss";
