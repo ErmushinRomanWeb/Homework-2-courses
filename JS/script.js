@@ -12,7 +12,7 @@ alert(`1 iphone was released in ${year1Iphone}`);
 let JScreator = 'Brendan Eich';
 alert(`JavaScript was created by ${creator}`);
 
-// 4
+// 4 пидор
 let b = 10;
 let c = 2;
 alert((c + b) + ' | ' + (b - c) + ' | ' + (b * c) + ' | ' + (b / c));
