@@ -43,21 +43,6 @@ body {
   &__thumbnail {
     font-weight: 700;
   }
-  &__button {
-    display: block;
-    width: 234.06px;
-    height: 48.6px;
-    padding: 13px 74px 13px 74px;
-    background: #9c0332;
-    border-radius: 30px;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: #ffffff;
-    border: none;
-  }
 }
 
 .game-box {
@@ -92,6 +77,43 @@ body {
   }
 }
 
+.games {
+  height: 800px;
+  background-color: #000915;
+  padding-top: 233px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__content {
+    padding-top: 49px;
+  }
+  &__heading {
+    padding-bottom: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #ffffff;
+  }
+  &__text {
+    padding-bottom: 32px;
+    max-width: 584px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+  &__logo {
+    background: url(./images/1_game.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 485px;
+    height: 333px;
+  }
+}
+@import "blocks.scss";
 @import "notebook.scss";
 @import "tablet.scss";
 @import "mobil.scss";

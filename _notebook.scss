@@ -1,11 +1,11 @@
 @media (min-width: 1025px) {
-  .top__button {
+  .button {
     transition: all 0.3s;
     &:hover {
       background: #eb443f;
     }
   }
-  .game-box__img{
+  .game-box__img {
     transition: ease 0.1s;
     border-radius: 18px;
     &:hover {
@@ -22,5 +22,15 @@
   .game-box {
     display: flex;
     justify-content: center;
+  }
+
+  .games {
+    height: 1200px;
+    flex-direction: column;
+    padding-bottom: 130px;
+    &__content {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
