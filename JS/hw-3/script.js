@@ -2,7 +2,7 @@
 // let password = 'f5f5f5';
 // let enterPassword = prompt('Введите пароль');
 // 
-// (password === enterPassword) ? console.log('Пароль введен верно') : console.log('Пароль введен неправильно');
+// console.log(password === enterPassword ? 'Пароль введен верно' : 'Пароль введен неправильно');
 
 
 // //2 задание
@@ -18,7 +18,7 @@
 // let d = 101;
 // let e = 7;
 // 
-// (d > 100 || e > 100) ? console.log('Верно') : console.log('Неверно');
+// console.log(d > 100 || e > 100 ? 'Верно' : 'Неверно');
 
 
 // // 4 задание
