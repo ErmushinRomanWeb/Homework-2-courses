@@ -111,7 +111,31 @@ body {
     background-size: cover;
     width: 485px;
     height: 333px;
+    &_2 {
+      background: url(./images/2_game.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
   }
+}
+
+.game-3 {
+  height: 800px;
+  background: url(./images/game_background_2.jpg);
+  background-color: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(.jpg), #000915;;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 276px;
+}
+.game-3__content {
+}
+.game-3__heading {
+}
+.game-3__text {
+}
+.button {
 }
 @import "blocks.scss";
 @import "notebook.scss";

@@ -28,6 +28,9 @@
     height: 1200px;
     flex-direction: column;
     padding-bottom: 150px;
+    &-2 {
+      flex-direction: column-reverse;
+    }
     &__content {
       display: flex;
       flex-direction: column;

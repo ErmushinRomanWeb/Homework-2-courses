@@ -43,6 +43,9 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 85px;
+    &-2 {
+      flex-direction: column-reverse;
+    }
     &__content {
       padding-top: 0;
       display: flex;
@@ -64,7 +67,7 @@
       text-align: center;
     }
     &__logo {
-      background: url(./mobile_images/1_game_mobil.svg);
+      // background: url(./mobile_images/1_game_mobil.svg);
       width: 344px;
       height: 236px;
     }
