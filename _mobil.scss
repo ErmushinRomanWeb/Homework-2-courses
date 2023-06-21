@@ -72,4 +72,26 @@
       height: 236px;
     }
   }
+
+  .game-3 {
+    height: 800px;
+    background: url(./mobile_images/game_3_backgrownd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 51px;
+    &__heading {
+      color: #fff;
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    &__text {
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+    }
+  }
 }
