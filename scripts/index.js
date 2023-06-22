@@ -17,7 +17,7 @@
 
 
 function game1() {
-    const monthNumber = prompt('Введите номер месяца, для того, что бы определить какое зто время года');
+    const monthNumber = +prompt('Введите номер месяца, для того, что бы определить какое зто время года');
 
          if (monthNumber === 12 || monthNumber === 1 || monthNumber === 2) {
          return 'Зима';
@@ -28,7 +28,7 @@ function game1() {
      } else if (monthNumber === 9 || monthNumber === 10 || monthNumber === 11) {
          return 'Осень';
      } else if (isNaN(monthNumber)) {
-         return `${monthNumber} - это не номер месяца`;
+         return `Вы ввели не номер месяца`;
      } else {
          return 'Вы ввели некорректный номер месяца'
      }
