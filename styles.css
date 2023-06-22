@@ -19,7 +19,7 @@ body {
 
 .top {
   height: 1024px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70%, #000915 100%), url(./images/background_1.jpg), lightgray 50%/cover no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70%, #000915 100%), url(./img/images/background_1.jpg), lightgray 50%/cover no-repeat;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -107,7 +107,7 @@ body {
   color: #ffffff;
 }
 .games__logo {
-  background: url(./images/1_game.svg);
+  background: url(./img/images/1_game.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -115,7 +115,7 @@ body {
   height: 333px;
 }
 .games__logo_2 {
-  background: url(./images/2_game.svg);
+  background: url(./img/images/2_game.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -123,7 +123,7 @@ body {
 
 .game-3 {
   height: 800px;
-  background: url(./images/game_background_2.jpg);
+  background: url(./img/images/game_background_2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -262,7 +262,7 @@ body {
   }
   .top {
     height: 735px;
-    background: url(./mobile_images/top_mobile.jpg);
+    background: url(./img/mobile_images/top_mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -329,7 +329,7 @@ body {
   }
   .game-3 {
     height: 800px;
-    background: url(./mobile_images/game_3_backgrownd.jpg);
+    background: url(./img/mobile_images/game_3_backgrownd.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
