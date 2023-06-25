@@ -19,7 +19,7 @@ body {
 
 .top {
   height: 1024px;
-  background: url(./images/background_1.jpg);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70%, #000915 100%), url(../img/images/background_1.jpg), lightgray 50%/cover no-repeat;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -107,7 +107,7 @@ body {
   color: #ffffff;
 }
 .games__logo {
-  background: url(./images/1_game.svg);
+  background: url(../img/images/1_game.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -115,7 +115,7 @@ body {
   height: 333px;
 }
 .games__logo_2 {
-  background: url(./images/2_game.svg);
+  background: url(../img/images/2_game.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -123,12 +123,41 @@ body {
 
 .game-3 {
   height: 800px;
-  background: url(./images/game_background_2.jpg);
-  background-color: linear-gradient(180deg, #000915 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(.jpg), #000915;
+  background: url(../img/images/game_background_2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 276px;
+}
+.game-3__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game-3__heading {
+  padding-bottom: 32px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.game-3__text {
+  padding-bottom: 32px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: center;
+}
+
+.bottom {
+  background: #000915;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
 }
 
 .button {
@@ -233,7 +262,7 @@ body {
   }
   .top {
     height: 735px;
-    background: url(./mobile_images/top_mobile.jpg);
+    background: url(../img/mobile_images/top_mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -297,5 +326,26 @@ body {
   .games__logo {
     width: 344px;
     height: 236px;
+  }
+  .game-3 {
+    height: 800px;
+    background: url(../img/mobile_images/game_3_backgrownd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 51px;
+  }
+  .game-3__heading {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .game-3__text {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -5,7 +5,7 @@
   }
   .top {
     height: 735px;
-    background: url(./mobile_images/top_mobile.jpg);
+    background: url(../img/mobile_images/top_mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -70,6 +70,28 @@
       // background: url(./mobile_images/1_game_mobil.svg);
       width: 344px;
       height: 236px;
+    }
+  }
+
+  .game-3 {
+    height: 800px;
+    background: url(../img/mobile_images/game_3_backgrownd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 51px;
+    &__heading {
+      color: #fff;
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    &__text {
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
     }
   }
 }
