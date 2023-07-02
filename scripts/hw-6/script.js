@@ -146,3 +146,39 @@
 // }
 // 
 // filterPositive(arr);
+
+
+// // 14 задание
+// 
+// const array = [];
+// const superFunction = (arr) => {
+// 
+//     for (let i = 0; i < 10; i++) {
+//         arr.push(Math.round(Math.random() * 10));
+//     }
+// 
+//     const evenArray = [arr.filter(el => (el % 2 === 0))];
+//     console.log(evenArray);
+//     console.log(arr, evenArray);
+// }
+// superFunction(array);
+
+
+
+// // 15 задание
+// 
+// const array = [];
+// const superFunction = (arr) => {
+// 
+//     for (let i = 0; i < 6; i++) {
+//         arr.push(Math.round(Math.random() * 10));
+//     }
+// 
+//     const result = arr.reduce((a, b) => (a + b));
+//     console.log(arr);
+//     console.log(result);
+// }
+// 
+// superFunction(array)
+
+    
